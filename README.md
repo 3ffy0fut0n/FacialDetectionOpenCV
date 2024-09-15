@@ -1,3 +1,4 @@
+![BiometricFacialRecognition](Biometric-facial-recognition.jpg)
 # Face Detection Using OpenCV and Colab
 
 This script is designed to capture an image using a webcam, detect faces within the image, and display the image with bounding boxes drawn around any detected faces. It leverages OpenCV's deep learning face detection capabilities and integrates with Google Colab for easy use in a browser-based environment.
