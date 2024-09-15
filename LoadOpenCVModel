@@ -1,0 +1,5 @@
+# Load the pre-trained face detection network model from disk
+print("[INFO] loading model...")
+prototxt = 'deploy.prototxt'
+model = 'res10_300x300_ssd_iter_140000.caffemodel'
+net = cv2.dnn.readNetFromCaffe(prototxt, model)
